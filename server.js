@@ -10,7 +10,7 @@ app.options("*", cors());
 app.use(express.json());
 
 
-app.get('*/deskcalls', async (req, res) => {
+app.get('*/aibot', async (req, res) => {
     console.log("working");
 
     // Retrieve headers and query parameters
